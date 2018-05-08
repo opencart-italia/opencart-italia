@@ -1,0 +1,37 @@
+<?php 
+
+$_['heading_title']     =  'Categorie';
+$_['text_success']     =  'Hai modificato la categoria con successo!';
+$_['text_list']     =  'Lista categoria';
+$_['text_add']     =  'Aggiungi categoria';
+$_['text_edit']     =  'Modifica categoria';
+$_['text_default']     =  'Predefinito';
+$_['text_keyword']     =  'Non usare spazi; assicurati che la parola chiave &egrave; globalmente unica!';
+$_['column_name']     =  'Nome categoria';
+$_['column_sort_order']     =  'Ordina';
+$_['column_action']     =  'Azione';
+$_['entry_name']     =  'Nome categoria';
+$_['entry_description']     =  'Descrizione';
+$_['entry_meta_title']     =  'Titolo Meta Tag';
+$_['entry_meta_keyword']     =  'Parole chiave';
+$_['entry_meta_description']     =  'Meta Tag Descrizione';
+$_['entry_store']     =  'I negozi';
+$_['entry_keyword']     =  'Parola chiave';
+$_['entry_parent']     =  'Categoria padre';
+$_['entry_filter']     =  'filtri';
+$_['entry_image']     =  'Immagine categoria';
+$_['entry_top']     =  'Mostra nel menu orizzontale:';
+$_['entry_column']     =  'colonne';
+$_['entry_sort_order']     =  'Ordina';
+$_['entry_status']     =  'Stato Categoria';
+$_['entry_layout']     =  'Sovvrascivi layout';
+$_['help_filter']     =  '(Autocomplete)';
+$_['help_top']     =  'Mostra nel menu principale. Funziona solo per le categorie principali.';
+$_['help_column']     =  'Numero di colonne da usare per le colonne sottostanti. Funziona solo per le categorie principali.';
+$_['error_warning']     =  'Attenzione: Ci sono errori nel modulo!';
+$_['error_permission']     =  'Attenzione: Non hai i permessi per modificare le categorie!';
+$_['error_name']     =  'Nome categoria must be between 1 and 255 characters!';
+$_['error_meta_title']     =  'Meta Titolo must be greater than 1 and less than 255 characters!';
+$_['error_keyword']     =  'URL SEO già in uso!';
+$_['error_unique']     =  'Url SEO must be unique!';
+$_['error_parent']     =  'Categoria superiore che avete scelto è figlia di quella attuale!';

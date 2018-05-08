@@ -1,0 +1,36 @@
+<?php 
+
+$_['heading_title']     =  'Divido';
+$_['text_divido']     =  '<a href="http://divido.com" target="_blank"> <img src = "visualizza / immagine / pagamento / divido.png"> </a>';
+$_['text_edit']     =  'Modifica Divido';
+$_['text_extension']     =  'estensioni';
+$_['text_order_info']     =  'Divido informazioni';
+$_['text_success']     =  'Successo: Hai modificato il modulo Divido';
+$_['text_proposal_id']     =  'ID della proposta';
+$_['text_application_id']     =  'ID applicazione';
+$_['text_deposit_amount']     =  'Importo del deposito';
+$_['entry_order_status']     =  'Stato dell\'ordine quando approvato';
+$_['entry_sort_order']     =  'Ordinamento';
+$_['entry_status']     =  'Stato Categoria';
+$_['entry_api_key']     =  'API-chiave';
+$_['entry_title']     =  'Titolo';
+$_['entry_productselection']     =  'Selezione del prodotto';
+$_['entry_planselection']     =  'Mostra piano predefinito';
+$_['entry_planlist']     =  'Piani';
+$_['entry_plans_options_all']     =  'Mostra tutti i piani';
+$_['entry_plans_options_selected']     =  'Select (Dropdown) default plans';
+$_['entry_products_options_all']     =  'Tutti i prodotti';
+$_['entry_products_options_selected']     =  'Solo prodotti selezionati';
+$_['entry_products_options_threshold']     =  'Tutti i prodotti al di sopra di un prezzo definito';
+$_['entry_price_threshold']     =  'Soglia del prezzo del prodotto';
+$_['entry_cart_threshold']     =  'Soglia totale del carrello';
+$_['entry_threshold_list']     =  'Pianificare le soglie';
+$_['entry_category']     =  'Categorie';
+$_['help_api_key']     =  'Chiave che ti identifica con Divido (ottenuto da Divido)';
+$_['help_status']     =  'Stato Categoria of the payment method';
+$_['help_order_status']     =  'Stato Categoria of the order when lender has approved';
+$_['help_title']     =  'Titolo dell\'opzione di pagamento, indicata nella cassa';
+$_['help_planselection']     =  'Scegliere se selezionare manualmente i piani o mostrare l\'insieme predefinito';
+$_['help_productselection']     =  'Select (Dropdown) what products are available on finance';
+$_['help_category']     =  'Limitare le categorie in cui è disponibile il finanziamento';
+$_['help_cart_threshold']     =  'Il limite inferiore più basso sul valore del carrello per Divido è disponibile';

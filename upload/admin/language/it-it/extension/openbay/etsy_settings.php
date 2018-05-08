@@ -1,0 +1,32 @@
+<?php 
+
+$_['heading_title']     =  'Impostazioni del Marketplace';
+$_['text_openbay']     =  'OpenBay Pro';
+$_['text_etsy']     =  'Etsy';
+$_['text_success']     =  'Le tue impostazioni sono state salvate';
+$_['text_status']     =  'Stato Categoria';
+$_['text_account_ok']     =  'Connessione a Etsy OK';
+$_['text_token_register']     =  'Registrare';
+$_['text_api_ok']     =  'Connessione API OK';
+$_['text_pull_orders']     =  'Prendi gli ordini';
+$_['text_sync_settings']     =  'Impostazioni di sincronizzazione';
+$_['text_complete']     =  'Completare';
+$_['text_failed']     =  'fallito';
+$_['text_orders_imported']     =  'È stato richiesto l\'ordine pull';
+$_['text_api_status']     =  'Connessione API';
+$_['text_edit']     =  'Modificare le impostazioni di Etsy';
+$_['text_register_banner']     =  'Clicca qui se devi registrarti per un account';
+$_['entry_import_def_id']     =  'Importa stato predefinito (non pagato):';
+$_['entry_import_paid_id']     =  'Stato pagato:';
+$_['entry_import_shipped_id']     =  'Spedito stato:';
+$_['entry_encryption_key']     =  'Tasto di crittografia 1';
+$_['entry_encryption_iv']     =  'Tasto di crittografia 2';
+$_['entry_token']     =  'Token API';
+$_['entry_address_format']     =  'Formato indirizzo predefinito';
+$_['entry_debug']     =  'Abilita la registrazione';
+$_['error_api_connect']     =  'Impossibile connettersi all\'API';
+$_['error_account_info']     =  'Impossibile verificare la connessione API a Etsy';
+$_['tab_api_info']     =  'Dettagli dell\'API';
+$_['help_address_format']     =  'Utilizzato solo se il paese collegato non dispone già di un set di formati di indirizzi.';
+$_['help_sync_settings']     =  'Questo aggiornerà il database con le più recenti opzioni di impostazione, quali tipi di condizione, date e altro ancora.';
+$_['help_pull_orders']     =  'Ciò innescherà un\'importazione manuale di ordini nuovi e aggiornati.';

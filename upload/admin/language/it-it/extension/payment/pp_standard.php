@@ -1,0 +1,34 @@
+<?php 
+
+$_['heading_title']     =  'PayPal Payments Standard';
+$_['text_extension']     =  'estensioni';
+$_['text_success']     =  'Successo: Hai modificato i dettagli dell\'account PayPal!';
+$_['text_edit']     =  'Modifica PayPal Payments Standard';
+$_['text_pp_standard']     =  '<a target="_BLANK" href="https://www.paypal.com/it/mrb/pal=V4T754QB63XXL"> <img src = "view / image / payment / paypal.png" alt = "Pagamento del sito PayPal Pro "title =" PayPal sito web Pagamento Pro iFrame "style =" confine: 1px solid #EEEEEE; " /> </a>';
+$_['text_authorization']     =  'Autorizzazione';
+$_['text_sale']     =  'saldi';
+$_['entry_email']     =  'E-mail';
+$_['entry_test']     =  'Modalità Sandbox';
+$_['entry_transaction']     =  'Metodo di transazione';
+$_['entry_debug']     =  'Modalità di debug';
+$_['entry_total']     =  'Totale';
+$_['entry_canceled_reversal_status']     =  'Canceled Reversal Stato Categoria';
+$_['entry_completed_status']     =  'Completed Stato Categoria';
+$_['entry_denied_status']     =  'Denied Stato Categoria';
+$_['entry_expired_status']     =  'Expired Stato Categoria';
+$_['entry_failed_status']     =  'Failed Stato Categoria';
+$_['entry_pending_status']     =  'Pending Stato Categoria';
+$_['entry_processed_status']     =  'Processed Stato Categoria';
+$_['entry_refunded_status']     =  'Refunded Stato Categoria';
+$_['entry_reversed_status']     =  'Reversed Stato Categoria';
+$_['entry_voided_status']     =  'Voided Stato Categoria';
+$_['entry_geo_zone']     =  'Geo Zone';
+$_['entry_status']     =  'Stato Categoria';
+$_['entry_sort_order']     =  'Ordina';
+$_['tab_general']     =  'Generale';
+$_['tab_order_status']     =  'Stato:';
+$_['help_test']     =  'Utilizzare il server gateway live o testing (sandbox) per elaborare le transazioni?';
+$_['help_debug']     =  'Registra informazioni aggiuntive al registro di sistema';
+$_['help_total']     =  'Il totale dell\'ordine deve arrivare prima che questo metodo di pagamento diventi attivo';
+$_['error_permission']     =  'Avviso: Non hai il permesso di modificare il pagamento PayPal!';
+$_['error_email']     =  'E-Mail richiesto!';

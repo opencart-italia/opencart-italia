@@ -1,0 +1,34 @@
+<?php 
+
+$_['heading_title']     =  'Profili ricorrenti';
+$_['text_success']     =  'Profili di Pagamento modificati con successo!';
+$_['text_list']     =  'Lista profili ricorrenti';
+$_['text_add']     =  'Aggiungi profilo ricorrente';
+$_['text_edit']     =  'Modifica profilo ricorrente';
+$_['text_day']     =  'Giorno';
+$_['text_week']     =  'Settimana';
+$_['text_semi_month']     =  'Met&agrave; Mese';
+$_['text_month']     =  'Mese';
+$_['text_year']     =  'Anno';
+$_['text_recurring']     =  '<p><i class="fa fa-info-circle"><\\/i>Gli importi ricorrenti sono calcolati in base alla frequenza. <br \\/>Esempio: se usi la frequenza &quot;settimana&quot; e un ciclo di 2, il cliente sar&agrave; fatturato ogni 2 settimane. <br \\/>La lunghezza &egrave; il numero di volte che l&rsquo;utente far&agrave; un pagamento, impostalo su 0 se desideri i pagamenti fino a quando non vengono cancellati.<\\/p>';
+$_['text_profile']     =  'Profilo ricorrente';
+$_['text_trial']     =  'Profilo di prova';
+$_['entry_name']     =  'Nome';
+$_['entry_price']     =  'Prezzo';
+$_['entry_duration']     =  'Durata';
+$_['entry_cycle']     =  'Ciclo';
+$_['entry_frequency']     =  'Frequenza';
+$_['entry_trial_price']     =  'Prezzo di prova';
+$_['entry_trial_duration']     =  'Durata prova';
+$_['entry_trial_status']     =  'Stato Prova';
+$_['entry_trial_cycle']     =  'Ciclo della Prova';
+$_['entry_trial_frequency']     =  'Frequenza Prova';
+$_['entry_status']     =  'Stato Categoria';
+$_['entry_sort_order']     =  'Ordina';
+$_['column_name']     =  'Nome';
+$_['column_sort_order']     =  'Ordina';
+$_['column_action']     =  'Azione';
+$_['error_warning']     =  'Attenzione: Ci sono errori nel modulo!';
+$_['error_permission']     =  'Attenzione: Non si hanno i permessi per modificare i profili!';
+$_['error_name']     =  'Il nome del profilo deve essere tra 3 e 255 caratteri!';
+$_['error_product']     =  'Il profilo non pu&ograve; essere eliminato perch&eacute; attualmente &egrave; assegnato a %s prodotti';

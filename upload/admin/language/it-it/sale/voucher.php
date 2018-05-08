@@ -1,0 +1,37 @@
+<?php 
+
+$_['heading_title']     =  'Voucher regalo';
+$_['text_success']     =  'Hai modificato i voucher con successo!';
+$_['text_list']     =  'Lista voucher regalo';
+$_['text_add']     =  'Aggiungi voucher regalo';
+$_['text_edit']     =  'Modifica voucher regalo';
+$_['text_sent']     =  'Il voucher regalo &egrave; stato inviato con successo!';
+$_['column_name']     =  'Nome Voucher';
+$_['column_code']     =  'Codice';
+$_['column_from']     =  'A partire dal';
+$_['column_to']     =  'A';
+$_['column_theme']     =  'Tema';
+$_['column_amount']     =  'Quantità';
+$_['column_status']     =  'Stato Categoria';
+$_['column_order_id']     =  'ID Ordine';
+$_['column_customer']     =  'Nome cliente';
+$_['column_date_added']     =  'Aggiunto il';
+$_['column_action']     =  'Azione';
+$_['entry_code']     =  'Codice';
+$_['entry_from_name']     =  'Nome mittente';
+$_['entry_from_email']     =  'E-Mail mittente';
+$_['entry_to_name']     =  'Nome destinatario';
+$_['entry_to_email']     =  'E-Mail destinatario';
+$_['entry_theme']     =  'Tema';
+$_['entry_message']     =  'Messaggio';
+$_['entry_amount']     =  'Quantità';
+$_['entry_status']     =  'Stato Categoria';
+$_['help_code']     =  'Il codice per attivare il voucher.';
+$_['error_permission']     =  'Attenzione: Non hai il permesso di modificare i voucher!';
+$_['error_exists']     =  'Il codice voucher &egrave; gi&agrave; in uso!';
+$_['error_code']     =  'Il codice deve essere tra 3 e 10 caratteri!';
+$_['error_to_name']     =  'Il nome del Destinatario deve essere lungo dai 1 ai 64 caratteri!';
+$_['error_from_name']     =  'Il tuo nome deve essere dai 1 ai 64 caratteri!';
+$_['error_email']     =  'L\'indirizzo Email non &egrave valido!';
+$_['error_amount']     =  'La quantit&agrave; deve essere superiore o uguale a 1!';
+$_['error_order']     =  'Questo voucher non pu&ograve; essere eliminato perche fa parte di un <a href="%s">ordine</a>!';

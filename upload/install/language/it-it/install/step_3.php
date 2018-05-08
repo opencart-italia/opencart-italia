@@ -1,0 +1,30 @@
+<?php 
+
+$_['heading_title']     =  'Configurazione';
+$_['text_step_3']     =  'Inserisci i dati del database e dell\'amministrazione';
+$_['text_db_connection']     =  '1. Inserisci i dati relativi alla connessione del database.';
+$_['text_db_administration']     =  '2. Immettere un nome utente e una password per l\'amministrazione.';
+$_['text_mysqli']     =  'MySQLi';
+$_['text_mysql']     =  'MySQL';
+$_['text_mpdo']     =  'MPDO';
+$_['text_pgsql']     =  'PostgreSQL';
+$_['entry_db_driver']     =  'Driver DB';
+$_['entry_db_hostname']     =  'hostname';
+$_['entry_db_username']     =  'Nome utente';
+$_['entry_db_password']     =  'Password';
+$_['entry_db_database']     =  'Nome database';
+$_['entry_db_port']     =  'Porta';
+$_['entry_db_prefix']     =  'Prefisso';
+$_['entry_username']     =  'Nome utente';
+$_['entry_password']     =  'Password';
+$_['entry_email']     =  'E-mail';
+$_['error_db_hostname']     =  'Nome host richiesto!';
+$_['error_db_username']     =  'Nome utente required!';
+$_['error_db_database']     =  'Nome database richiesto!';
+$_['error_db_port']     =  'Porta database richiesto!';
+$_['error_db_prefix']     =  'Il prefisso DB può contenere solo caratteri minuscoli nella gamma a-z, 0-9 e sottolineatura';
+$_['error_db_connect']     =  'Errore: Impossibile connettersi al database, assicurati che il server di database, il nome utente e la password siano corretti!';
+$_['error_username']     =  'Nome utente required!';
+$_['error_password']     =  'Password richiesta!';
+$_['error_email']     =  'E-mail non valido!';
+$_['error_config']     =  'Errore: Impossibile scrivere a config.php verificare di aver impostato le autorizzazioni corrette su:';

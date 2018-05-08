@@ -1,0 +1,33 @@
+<?php 
+
+$_['heading_title']     =  'Bulk Listing';
+$_['text_openbay']     =  'OpenBay Pro';
+$_['text_amazon']     =  'Amazon US';
+$_['text_searching']     =  'Ricerca';
+$_['text_finished']     =  'Finito';
+$_['text_dont_list']     =  'Non elencare';
+$_['text_listing_values']     =  'Valori di listino';
+$_['text_new']     =  'Nuovo';
+$_['text_used_like_new']     =  'Usato - Come Nuovo';
+$_['text_used_very_good']     =  'Usato - Molto bene';
+$_['text_used_good']     =  'Usato - Buono';
+$_['text_used_acceptable']     =  'Usato - Accettabile';
+$_['text_collectible_like_new']     =  'Collectible - come nuovo';
+$_['text_collectible_very_good']     =  'Raccolta - molto buona';
+$_['text_collectible_good']     =  'Raccolta - Buono';
+$_['text_collectible_acceptable']     =  'Raccolta - Accettabile';
+$_['text_refurbished']     =  'RISTRUTTURATO';
+$_['entry_condition']     =  'Condizione';
+$_['entry_condition_note']     =  'Nota di condizione';
+$_['entry_start_selling']     =  'Inizia la vendita';
+$_['column_name']     =  'Nome';
+$_['column_image']     =  'Immagine categoria';
+$_['column_model']     =  'Modello';
+$_['column_status']     =  'Stato Categoria';
+$_['column_matches']     =  'fiammiferi';
+$_['column_result']     =  'Risultato';
+$_['button_list']     =  'Elenco';
+$_['error_product_sku']     =  'Il prodotto deve avere un codice SKU';
+$_['error_searchable_fields']     =  'Il prodotto deve avere il campo ISBN, EAN, UPC o JAN popolato';
+$_['error_bulk_listing_permission']     =  'L\'elenco di massa non è disponibile nel tuo piano, ti preghiamo di aggiornare per utilizzare questa funzionalità.';
+$_['error_select_items']     =  'È necessario selezionare almeno 1 elemento da ricercare';

@@ -1,0 +1,36 @@
+<?php 
+
+$_['heading_title']     =  'Pagine informative';
+$_['text_success']     =  'Pagine informative modificate con successo!';
+$_['text_list']     =  'Lista informazioni';
+$_['text_add']     =  'Aggiungi informazione';
+$_['text_edit']     =  'Modifica informazione';
+$_['text_default']     =  'Predefinito';
+$_['text_keyword']     =  'Non usare spazi; assicurati che la parola chiave &egrave; globalmente unica!';
+$_['column_title']     =  'Pagine informative Title';
+$_['column_sort_order']     =  'Ordina';
+$_['column_action']     =  'Azione';
+$_['entry_title']     =  'Pagine informative Title';
+$_['entry_description']     =  'Descrizione';
+$_['entry_meta_title']     =  'Titolo Meta Tag';
+$_['entry_meta_keyword']     =  'Parole chiave';
+$_['entry_meta_description']     =  'Meta Tag Descrizione';
+$_['entry_store']     =  'I negozi';
+$_['entry_keyword']     =  'Parola chiave';
+$_['entry_bottom']     =  'In fondo';
+$_['entry_status']     =  'Stato Categoria';
+$_['entry_sort_order']     =  'Ordina';
+$_['entry_layout']     =  'Sovvrascivi layout';
+$_['help_bottom']     =  'Visualizza nel piè basso inferiore.';
+$_['error_warning']     =  'Attenzione: Ci sono errori nel modulo!';
+$_['error_permission']     =  'Avviso: Non hai il permesso di modificare le informazioni!';
+$_['error_title']     =  'Pagine informative Title must be between 1 and 64 characters!';
+$_['error_description']     =  'La descrizione deve essere superiore a 3 caratteri!';
+$_['error_meta_title']     =  'Meta Titolo must be greater than 1 and less than 255 characters!';
+$_['error_keyword']     =  'URL SEO già in uso!';
+$_['error_unique']     =  'Url SEO must be unique!';
+$_['error_account']     =  'Avviso: Questa pagina di informazioni non può essere eliminata poiché è attualmente assegnata come termini dell\'account del negozio!';
+$_['error_checkout']     =  'Avviso: Questa pagina informazioni non può essere eliminata poiché è attualmente assegnato come termini di checkout negozio!';
+$_['error_affiliate']     =  'Avviso: Questa pagina informazioni non può essere eliminata poiché è attualmente assegnato come termini di affiliazione del negozio!';
+$_['error_return']     =  'Avviso: Questa pagina informazioni non può essere eliminata poiché è attualmente assegnata come termini di ritorno del negozio!';
+$_['error_store']     =  'Avviso: Questa pagina informazioni non può essere eliminata poiché è attualmente utilizzata dai negozi di %s!';

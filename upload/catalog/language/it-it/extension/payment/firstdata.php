@@ -1,0 +1,36 @@
+<?php 
+
+$_['text_title']     =  'Carta di credito / debito (primi dati)';
+$_['button_confirm']     =  'Continua';
+$_['text_new_card']     =  'Nuova carta';
+$_['text_store_card']     =  'Ricorda i dettagli della mia carta';
+$_['text_address_response']     =  'Verifica indirizzo:';
+$_['text_address_ppx']     =  'Nessun dato di indirizzo fornito o indirizzo non controllato dall\'emittente della carta';
+$_['text_address_yyy']     =  'L\'emittente della carta ha confermato la corrispondenza tra strada e codice postale con i propri record';
+$_['text_address_yna']     =  'L\'emittente della carta ha confermato che le partite di strada con i loro record ma il codice postale non corrispondono';
+$_['text_address_nyz']     =  'L\'emittente della carta ha confermato che il codice postale corrisponde ai propri record, ma la strada non corrisponde';
+$_['text_address_nnn']     =  'Sia la via che il codice postale non corrispondono ai record dell\'emittente della carta';
+$_['text_address_ypx']     =  'L\'emittente della carta ha confermato che le partite di strada con i loro record. L\'emittente non ha controllato il codice postale';
+$_['text_address_pyx']     =  'L\'emittente della carta ha confermato che il codice postale corrisponde ai propri record. L\'emittente non ha controllato la strada';
+$_['text_address_xxu']     =  'L\'emittente della carta non ha controllato le informazioni AVS';
+$_['text_card_code_verify']     =  'Codice di sicurezza:';
+$_['text_card_code_m']     =  'Corrispondenza del codice di sicurezza della carta';
+$_['text_card_code_n']     =  'Il codice di sicurezza della carta non corrisponde';
+$_['text_card_code_p']     =  'Non processato';
+$_['text_card_code_s']     =  'Il commerciante ha indicato che il codice di sicurezza della carta non è presente sulla scheda';
+$_['text_card_code_u']     =  'L\'emittente non è certificato e / o non ha fornito chiavi di crittografia';
+$_['text_card_code_x']     =  'Nessuna risposta dall\'associazione di carte di credito è stata ricevuta';
+$_['text_card_code_blank']     =  'Una risposta vuota dovrebbe indicare che nessun codice è stato inviato e che non vi era alcuna indicazione che il codice non fosse presente sulla scheda.';
+$_['text_card_type_m']     =  'MasterCard';
+$_['text_card_type_v']     =  'Visa (credito / debito / elettroni / delta)';
+$_['text_card_type_c']     =  'Diners';
+$_['text_card_type_a']     =  'American Express';
+$_['text_card_type_ma']     =  'Maestro';
+$_['text_card_type_mauk']     =  'Maestro UK / Solo';
+$_['text_response_code_full']     =  'Codice di approvazione:';
+$_['text_response_code']     =  'Codice completo di risposta:';
+$_['text_response_card']     =  'Carta utilizzata:';
+$_['text_response_card_type']     =  'Tipo di carta:';
+$_['text_response_proc_code']     =  'Codice del processore:';
+$_['text_response_ref']     =  'Numero di rif:';
+$_['error_failed']     =  'Impossibile elaborare il tuo pagamento, riprova';

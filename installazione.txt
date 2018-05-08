@@ -1,0 +1,103 @@
+/////////////////////////////////
+///       OpenCart V3.x     ///
+///    Instruzioni di installazione   ///
+///  http://www.opencart.com  ///
+///  http://www.opencart-italia.it  ///
+/////////////////////////////////
+
+
+ISTRUZIONI SOLO PER UNA NUOVO INSTALLAZIONE!
+PER INSTALLAZIONI GIA' ESISTENTI LEGGERE LEGGERE IL FILE DI UPGRADE.TXT
+
+-------
+INSTALLAZIONE
+-------
+Queste istruzioni sono per un'installazione manuale utilizzando FTP, cPanel o altri pannelli di controllo web hosting.
+
+- Installazione Linux -
+
+1. Caricare tutti i file e le cartelle sul tuo server dalla cartella "upload", inserendoli nella web root. La web root è diversa su alcuni server, cPanel dovrebbe essere public_html/ e su Plesk  dovrebbe essere httpdocs/.
+
+2. Rinominare config-dist.php in config.php e admin/config-dist.php in admin/config.php
+
+3. Per Linux / Unix assicurarsi che le seguenti cartelle e file siano scrivibili:
+		chmod 0755 or 0777 system/storage/cache/
+		chmod 0755 or 0777 system/storage/download/
+		chmod 0755 or 0777 system/storage/logs/
+		chmod 0755 or 0777 system/storage/modification/
+		chmod 0755 or 0777 system/storage/session/
+		chmod 0755 or 0777 system/storage/upload/
+		chmod 0755 or 0777 system/storage/vendor/
+		chmod 0755 or 0777 image/
+		chmod 0755 or 0777 image/cache/
+		chmod 0755 or 0777 image/catalog/
+		chmod 0755 or 0777 config.php
+		chmod 0755 or 0777 admin/config.php
+
+		Se 0755 non funziona provare 0777.
+
+4. Assicurarsi di aver installato un database MySQL ed aver creato un utente ad-hoc
+	NON UTILIZZARE USERNAME E PASSWORD DI ROOT
+
+5. Visita la homepage del negozio, ad esempio http://www.example.com o http://www.example.com/store/
+
+6. Dovresti trovarti sulla pagina dell'installatore. Seguire le istruzioni visualizzate sullo schermo.
+
+7. Dopo l'installazione, se tutto è andato bene, eliminare la directory install/ da ftp.
+
+8. Se hai scaricato la versione compilata con una cartella denominata "vendor", dovrebbe essere caricata nella webroot (quindi la stessa cartella in cui sono public_html o httpdocs)
+
+- Installazione Windows -
+
+1. Caricare tutti i file e le cartelle sul server dalla cartella "upload". Ciò può essere dovunque di vostra scelta. per esempio. /wwwroot/store o /wwwroot
+
+2. Rinominare config-dist.php in config.php e admin/config-dist.php in admin/config.php
+
+3. Per Windows, assicurarsi che le seguenti cartelle e le autorizzazioni di file consentano la lettura e la scrittura.
+
+		system/storage/cache/
+		system/storage/download/
+		system/storage/logs/
+		system/storage/modification/
+		system/storage/session/
+		system/storage/upload/
+		system/storage/vendor/
+		image/
+		image/cache/
+		image/catalog/
+		config.php
+		admin/config.php
+
+4. Assicurarsi di aver installato un database MySQL ed aver creato un utente ad-hoc
+	NON UTILIZZARE USERNAME E PASSWORD DI ROOT
+
+5. Visita la homepage del negozio, ad esempio http://www.example.com o http://www.example.com/store/
+
+6. Dopo l'installazione, se tutto è andato bene, eliminare la directory install/
+
+- Installazione  -
+
+Ci sono molti ambienti LAMP pre-configurati e la maggior parte di loro dovrebbe funzionare con OpenCart. Qualche esempio:
+
+http://www.apachefriends.org/en/xampp.html
+http://www.ampps.com/
+http://www.usbwebserver.net
+http://www.wampserver.com/en/
+
+ - Note -
+
+Problemi di Godaddy
+
+Se il tuo hosting ha godaddy potrebbe essere necessario rinominare il file php.ini in user.ini
+
+Sembra che godadddy ha iniziato a cambiare i nomi standard dei file di configurazione.
+
+----------------------------
+COMPOSER OR NON COMPOSER
+----------------------------
+Dalla versione 2.2 è stato aggiunto "composer" per aiutare gli sviluppatori a utilizzare le librerie incluse in composer. 
+Saranno disponibili 2 versioni di OpenCart: una compilata e una non. (solo un file composer.json e nessun file nella cartella vendor).
+
+Consigliamo vivamente di lasciare la cartella vendor al di fuori della webroot, cosi' i file non possono essere raggiunti direttamente.
+
+L'installazione di composer è estremamente semplice - https://getcomposer.org
